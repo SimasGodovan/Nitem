@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://ktsft3o3sr5t"]
+
+[ext_resource type="FontFile" uid="uid://bjst2hkw4iqww" path="res://assets/fonts/PixelOperator8.ttf" id="1_lbf8p"]
+[ext_resource type="Script" path="res://scripts/fps_meter.gd" id="1_y2cwe"]
+
+[node name="FPSMeter" type="Label"]
+offset_right = 74.0
+offset_bottom = 16.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("1_lbf8p")
+theme_override_font_sizes/font_size = 16
+text = "FPS: 0"
+script = ExtResource("1_y2cwe")
